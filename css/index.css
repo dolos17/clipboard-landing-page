@@ -1,0 +1,344 @@
+@import url(https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100;200;300;400;500;600;700&display=swap);
+
+
+
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    font-size: 30pt;
+    color: var(--Dark-Grayish-Blue);
+}
+
+p {
+    font-size: 13pt;
+    color: var(--Grayish-Blue);
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.section-1 {
+    background: url('../assets/images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    padding: 100px 250px;
+}
+
+.logo {
+    margin: 30px;
+}
+
+.logo img {
+    height: 40vh;
+}
+
+
+.section-1 .text {
+    margin: 20px;
+}
+
+.section-1 .text p {
+    margin-top: 10px;
+}
+
+.download-btn-group {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.ios {
+    background: var(--Strong-Cyan);
+}
+
+.mac {
+    background: var(--Light-Blue);
+}
+
+.section-2 .text-box {
+    margin-bottom: 30px;
+    padding: 50px 200px;
+}
+
+.flex {
+    display: flex;
+
+    text-align: left;
+       
+}
+
+.left {
+    margin-left: -25vh;
+    text-align: left;
+}
+
+.right{
+    margin: 60px;
+}
+
+.right .card {
+    margin-bottom: 15vh;
+}
+
+.right .card .head {
+    margin-bottom: 10px
+}
+
+.section-3 {
+    padding: 50px 250px;
+}
+
+.section-3 .text-box {
+    margin-bottom: 50px;
+    
+}
+
+.section-3 .devices {
+    display: flex;
+    justify-content: center;
+}
+
+.section-4 {
+    padding: 100px 250px;
+}
+
+.section-4 .text-box {
+    margin-bottom: 30px;
+    
+}
+
+.step-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.step-cards .cards {
+    margin: 40px;
+    max-width: 200px;
+    min-width: 250px;
+}
+
+.step-cards .cards img {
+    margin-bottom: 10px;
+}
+
+.step-cards .cards .head {
+    color: var(--Dark-Grayish-Blue);
+    font-size: 16pt;
+}
+
+.step-cards .cards p {
+    color: var(--Grayish-Blue);
+    font-size: 10pt;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px
+}
+
+.sponsors img {
+    margin: 20px 40px;
+}
+
+
+.download-section {
+    margin-top: 20vh
+}
+
+footer {
+   
+    background: #ccc;
+}
+
+footer .contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+footer .contain .logo {
+    height: 10vh;
+   
+}
+
+.box a {
+    font-size: 16pt;
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    transition: .3s;
+}
+
+.box a:hover {
+    color: var(--Strong-Cyan);
+}
+
+.icons img {
+    height: 30px;
+    margin: 0 20px;
+}
+
+.facebook {
+    background: darkblue;
+}
+
+
+.attribution {
+    font-size: 10pt;
+}
+
+@media screen and (max-width: 991px) {
+
+    .section-1 {
+        background: url('../assets/images/bg-header-mobile.png');
+        background-repeat: no-repeat;
+        padding: 10px 30px;
+        margin-bottom: 20vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .logo img {
+        height: 30vh;
+    }
+
+    .header {
+        font-size: 25pt;
+        
+    }
+
+    .section-1 .text {
+        margin: 5px;
+    }
+
+    p {
+        font-size: 12pt;
+    }
+
+    .download-btn-group {
+        flex-direction: column;
+    }
+
+    
+button {
+    padding: 20px 20px;
+    font-size: 16pt;
+
+}
+
+.section-2 .text-box {
+    margin-bottom: 30px;
+    padding: 50px 0px;
+}
+
+.flex {
+flex-direction: column;
+       
+} 
+
+.left {
+    margin-left: 0vh;
+    height: 50vh;
+    margin-bottom: 10vh;
+}
+
+.right{
+    margin: 10px;
+}
+
+.right .card {
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+
+.section-3 {
+    padding: 50px 0px;
+}
+
+.section-3 .device {
+    height: 40vh;
+}
+
+.section-4 {
+    padding: 100px 0px;
+}
+
+.section-4 .text-box {
+    margin-bottom: 50px;
+    
+}
+
+.step-cards {
+    flex-direction: column;
+    margin-bottom: 20vh;
+}
+
+.step-cards .cards {
+   margin: auto;
+   margin-bottom: 30px;
+}
+
+.sponsors {
+flex-direction: column;
+justify-content: center;
+}
+
+.sponsors img {
+   width: 200px;
+   margin: auto;
+   margin-bottom: 10vh;
+}
+
+footer .contain {
+flex-direction: column;
+text-align: center;
+}
+
+.box {
+    margin: 10px 0;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+}
